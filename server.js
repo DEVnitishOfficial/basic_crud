@@ -8,7 +8,7 @@ const MONGO_URI = process.env.MONGO_URI
 
 app.listen(PORT, () => {
   console.log(`Server listening on http://localhost:${PORT}`);
-  console.log(`MongoDB connected to ${MONGO_URI}`);
+  console.log(`MongoDB connected to ${MONGO_URI}`)
 });
 
  
